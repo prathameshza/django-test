@@ -25,4 +25,5 @@ EXPOSE 8080
 # For environments with multiple CPU cores, increase the number of workers
 # to be equal to the cores available.
 # Timeout is set to 0 to disable the timeouts of the workers to allow Cloud Run to handle instance scaling.
+RUN python3 manage.py migrate
 CMD exec python3 manage.py runserver 8080
