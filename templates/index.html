@@ -8,54 +8,62 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
-            <div class="wrapper">
-              <div class="location">
-                <div class="location_mark"></div>
-                <div class="pointer"></div>
-              </div>
-              <div class="sensei_wrapper">
-                <div class="sensei">
-          
-                </div>
-                <div class="speech_wrapper">
-                  <div class="speech_bubble"></div>
-                </div>
-              </div>
-              
-              <div class="circle_wrapper">
-                <div class="background light"></div>
-                <div class="circle"></div>
-              </div>
-          
-              <div class="display_wrapper">
-                <div class="inner_wrapper">
-                  <div class="img_display display"></div>
-                  <div class="caption display"></div>
-                  <div class="display"></div>
-                  <button class="display close">close</button>
-                </div>
-              </div>
-          
-            </div>
-          
-          
-            <div class="touch_wrapper">
-              <div>
-                <div class="touch_control">
-                  <div class="touch_circle"></div>
-                </div>
-              
-                <div class="action_button"></div>
-              </div>
-            </div>
-          
-          
-            <!-- <div class="indicator"></div> -->
-            <div class="sign">
-              by masahito / <a href="http://www.ma5a.com/" >ma5a.com</a>
-            </div>
+      <div class='info'>
+        <h1>Flat Navigation</h1>
+        <span>
+          Made with
+          <i class='fa fa-heart animated infinite pulse'></i>
+          by
+          <a href='http://andytran.me'>Andy Tran</a>
+          <div class='spoilers'>
+            (Dropdown Menu) | (Very Cool!)
+          </div>
+        </span>
+      </div>
+      <div class='nav'>
+        <ul>
+          <li>
+            <a class='logo' href='http://andytran.me'>
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/logo_(1).svg'>
+            </a>
+          </li>
+          <li>
+            <a href='#portfolio'>Portfolio</a>
+          </li>
+          <li>
+            <a href='#calendar'>
+              Calendar
+              <i class='fa fa-caret-down'></i>
+            </a>
+            <ul class='menu'>
+              <li>
+                <a href='#event_one'>Event #1</a>
+              </li>
+              <li>
+                <a href='#event_two'>Event #2</a>
+              </li>
+              <li>
+                <a href='#event_three'>Event #3</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href='#resume'>Resume</a>
+          </li>
+          <li>
+            <a href='#blog'>Blog</a>
+          </li>
+          <li>
+            <a href='#contact'>
+              <div class='fa fa-envelope'></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
           
         
         <script src="/static/script.js"></script>
