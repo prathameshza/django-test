@@ -140,6 +140,6 @@ STATIC_ROOT='staticfiles'
 
 STATICFILES_DIRS=[
     BASE_DIR / "static",
-    '/var/www/static/',
+    '/site/repository/static',
 ]
 
