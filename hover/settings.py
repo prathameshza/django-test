@@ -138,8 +138,8 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT='staticfiles'
 
-STATICFILES_DIRS=[
-    BASE_DIR / "static",
-    '/home/site/repository/static',
-]
+# STATICFILES_DIRS=[
+#     BASE_DIR / "static",
+#     '/home/site/repository/static',
+# ]
 
